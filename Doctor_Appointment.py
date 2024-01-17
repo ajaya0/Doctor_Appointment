@@ -116,7 +116,7 @@ def deshboard():
     Month.place(x=480,y=185)
 
     Year=Label(des,text="Year:" ,font="Verdana 10 bold")
-    Year.place(x=480,y=205)
+    Year.place(x=480,y=204)
 
 
 # Book doctor entry box
@@ -169,8 +169,6 @@ def deshboard():
     
         d4=Label(des,text=f"month:{book[11]}",font="Verdana 10 bold")
         d4.place(x=20,y=340)
-
-
 #------------------Sign up window----------------
 def signup():
     def action():
@@ -270,7 +268,6 @@ def signup():
     user_name=StringVar()
     password=StringVar()
     very_pass=StringVar()
-
 
     first_name=Entry(winsignup,width=40,textvariable=first_name)
     first_name.place(x=200,y=135)
